@@ -170,6 +170,18 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Migrations\201706302046513_AddGigAndGenreTables.cs" />
+    <Compile Include="Migrations\201706302046513_AddGigAndGenreTables.Designer.cs">
+      <DependentUpon>201706302046513_AddGigAndGenreTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706302048445_PopluateGenresTable.cs" />
+    <Compile Include="Migrations\201706302048445_PopluateGenresTable.Designer.cs">
+      <DependentUpon>201706302048445_PopluateGenresTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Utilites\ExtensionsMethods.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,6 +197,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-override.css" />
     <Content Include="Content\bootstrap-paper.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -255,6 +268,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706301921392_InitialMigration.resx">
       <DependentUpon>201706301921392_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706302046513_AddGigAndGenreTables.resx">
+      <DependentUpon>201706302046513_AddGigAndGenreTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706302048445_PopluateGenresTable.resx">
+      <DependentUpon>201706302048445_PopluateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

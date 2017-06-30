@@ -22,6 +22,7 @@ namespace GigHub
 
             bundles.Add( new StyleBundle( "~/Content/css" ).Include(
                       "~/Content/bootstrap-paper.css",
+                      "~/Content/bootstrap-override.css",
                       "~/Content/site.css" ) );
         }
     }
