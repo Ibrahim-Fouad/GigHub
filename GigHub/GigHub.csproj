@@ -179,6 +179,10 @@
     <Compile Include="Migrations\201706302048445_PopluateGenresTable.Designer.cs">
       <DependentUpon>201706302048445_PopluateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707021126152_AddForeignKeyToArtistAndGigs.cs" />
+    <Compile Include="Migrations\201707021126152_AddForeignKeyToArtistAndGigs.Designer.cs">
+      <DependentUpon>201707021126152_AddForeignKeyToArtistAndGigs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
@@ -277,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706302048445_PopluateGenresTable.resx">
       <DependentUpon>201706302048445_PopluateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707021126152_AddForeignKeyToArtistAndGigs.resx">
+      <DependentUpon>201707021126152_AddForeignKeyToArtistAndGigs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
