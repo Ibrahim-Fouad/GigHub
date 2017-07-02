@@ -171,6 +171,8 @@
     <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="CustomValidation\FutureDate.cs" />
+    <Compile Include="CustomValidation\ValidTime.cs" />
     <Compile Include="Migrations\201706302046513_AddGigAndGenreTables.cs" />
     <Compile Include="Migrations\201706302046513_AddGigAndGenreTables.Designer.cs">
       <DependentUpon>201706302046513_AddGigAndGenreTables.cs</DependentUpon>
