@@ -27,7 +27,7 @@
         @Html.DropDownListFor( m => m.Genre, new SelectList(Model.Genres, "Id", "Name"),"Select Genre" , new { @class = "form-control" } )
         @Html.ValidationMessageFor( m => m.Genre )
     </div>
-
+    @Html.AntiForgeryToken()
     <input type="submit" value="Create" class="btn btn-primary"/>
 }
 @section scripts
