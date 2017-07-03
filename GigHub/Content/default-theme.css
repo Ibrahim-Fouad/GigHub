@@ -1,0 +1,35 @@
+﻿.navbar-inverse {
+    background-color: #FF5252;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #e8e8e8;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:hover, 
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #ef2c2c;
+    color: #cacaca;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #cacaca;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #141414;
+    background-color: #eeeeee;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+    color: #FFFFFF;
+}
