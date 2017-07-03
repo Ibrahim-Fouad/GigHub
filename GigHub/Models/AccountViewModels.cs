@@ -70,6 +70,11 @@ namespace GigHub.Models
         public string FullName { get; set; }
 
         [Required]
+        [StringLength( 100 )]
+        [Display( Name = "Artist Name" )]
+        public string Name { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display( Name = "Email" )]
         public string Email { get; set; }

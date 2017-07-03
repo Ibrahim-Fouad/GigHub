@@ -152,7 +152,8 @@ namespace GigHub.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    FullName = model.FullName
+                    FullName = model.FullName,
+                    Name = model.Name
                 };
                 var result = await UserManager.CreateAsync( user, model.Password );
                 if (result.Succeeded)
